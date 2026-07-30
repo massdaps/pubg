@@ -1912,7 +1912,7 @@ function M.Run(beginPlaySelf)
         if not slua.isValid(localPlayer) or beginPlaySelf.Object ~= localPlayer then
             M.WriteLog("[SkinLoader] ABORTED - Player mismatch or invalid!")
             M.WriteLog("[SkinLoader] === M.Run() END (ABORTED) ===")
-            return
+          --  return
         end
         
         M.WriteLog("[SkinLoader] Player validation PASSED")
